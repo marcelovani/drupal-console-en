@@ -1,0 +1,12 @@
+description: "Creates a database."
+help: 'The <info>database:create</info> command helps you create databases.'
+arguments:
+  database: 'Database key from settings.php'
+messages:
+    database: 'Database'
+    created: 'Created "%s" database successfully'
+examples:
+    - description: 'Creating a database'
+      execution: |
+        drupal database:create \
+          <database>

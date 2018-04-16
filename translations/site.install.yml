@@ -10,6 +10,8 @@ arguments:
   account-mail: 'Drupal administrator account mail'
   account-pass: 'Drupal administrator account password'
   force: 'Force to reinstall the site'
+  import-dump: 'Restores the site from existing database dump'
+  import-config: 'Restores the site from existing config'
 questions:
   profile: 'Select Drupal profile to be installed'
   langcode: 'Select language for your Drupal installation'
