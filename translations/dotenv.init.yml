@@ -1,5 +1,6 @@
 description: 'Add support and required config to work with an .env file'
 messages:
+  env-not-found: Environment not found in the yml file. Using defaults.
   template-env: |
     This file is a "template" of which env vars need to be defined
     for your application, use only on development stages.
